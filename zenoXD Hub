@@ -49,9 +49,18 @@ local Paragraph = Tab1:CreateParagraph({Title = "Paragraph", Content = "Made by 
 local Button = Tab1:CreateButton({
    Name = "Discord",
    Callback = function()
-   SetClipboard("https://discord.com/invite/RMvCHJrJ")
+local TextLabel = TextButton.Parent:WaitForChild("https://discord.com/invite/RMvCHJrJ") -- Assuming you have a TextLabel to copy text from
+local UserInputService = game:GetService("UserInputService")
+
+-- Function to simulate copy (since you can't access clipboard directly in Roblox)
+local function onButtonClicked()
+    -- Here we will display a message indicating the text has been "copied"
+    local originalText = https://discord.com/invite/RMvCHJrJ
+    
+    -- This part is just to simulate the copy behavior
+    print("Copied to clipboard (simulated): " https://discord.com/invite/RMvCHJrJ)
    end,
-})
+}
 
 local Tab2 = Window:CreateTab("Others", 4483362458) -- Title, Image
 
