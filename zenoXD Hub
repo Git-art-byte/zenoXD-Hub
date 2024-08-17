@@ -46,6 +46,13 @@ local Tab1 = Window:CreateTab("Credit", 4483362458) -- Title, Image
 local Label = Tab1:CreateLabel("Mabe by zenoXD sh")
 local Paragraph = Tab1:CreateParagraph({Title = "Paragraph", Content = "Made by zenoXD sh"})
 
+local Button = Tab2:CreateButton({
+   Name = "Discord",
+   Callback = function()
+   SetClipboard("https://discord.com/invite/RMvCHJrJ")
+   end,
+})
+
 local Tab2 = Window:CreateTab("Others", 4483362458) -- Title, Image
 
 local Input = Tab2:CreateInput({
