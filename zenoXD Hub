@@ -596,3 +596,61 @@ local Button = Tab7:CreateButton({
     loadstring(game:HttpGet('https://pastefy.app/fR8cxljz/raw'))()
    end,
 })
+
+local Section6 = Tab:7CreateSection("Sol's Rng")
+
+local Button = Tab7:CreateButton({
+   Name = "Eurudith Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/ThacG/EruditeHub/main/Sol's%20RNG/V2.69"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Hoho Hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Unnamed gui",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/RngNew/main/Sols"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Unnamed gui",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Unnamed gui",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Just3itx/Backup/main/loader.lua"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Unnamed gui",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Rah-Md/Sol-Rgn-Scripts/main/Upd.lua"))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Xeo",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/MercyfulSmoked/Xeo/main/Main.lua'))()
+   end,
+})
+
+local Button = Tab7:CreateButton({
+   Name = "Button Example",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Bitdancer64x/Scripts/main/Script.lua"))()
+   end,
+})
