@@ -392,6 +392,7 @@ local Button = Tab6:CreateButton({
 })
 
 local Tab7 = Window:CreateTab("Game", 4483362458) -- Title, Image
+
 local Section1 = Tab7:CreateSection("Brookhaven")
 
 local Button = Tab7:CreateButton({
