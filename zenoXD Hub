@@ -421,6 +421,13 @@ local Button = Tab6:CreateButton({
 })
 
 local Button = Tab6:CreateButton({
+   Name = "Avatar Stealer 2",
+   Callback = function()
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/RawParmesan/Parmesan-Hub/main/Loader"),true))()
+   end,
+})
+
+local Button = Tab6:CreateButton({
    Name = "Laser Gun",
    Callback = function()
    loadstring(game:HttpGet('https://pastebin.com/raw/SBbr8YHZ'))()
