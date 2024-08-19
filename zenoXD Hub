@@ -393,6 +393,20 @@ local Button = Tab6:CreateButton({
 })
 
 local Button = Tab6:CreateButton({
+   Name = "Troll Chat",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/game-hax/uca/main/release/uca.min.lua"))()
+   end,
+})
+
+local Button = Tab6:CreateButton({
+   Name = "Troll Chat 2",
+   Callback = function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/MBpnp3yS'))()
+   end,
+})
+
+local Button = Tab6:CreateButton({
    Name = "Gravity Gun",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Git-art-byte/Gravity-gun/main/Gravity%20Gun?token=GHSAT0AAAAAACVUZM2TYAMSQZ4YNESGNVS2ZV54GZA"))()
