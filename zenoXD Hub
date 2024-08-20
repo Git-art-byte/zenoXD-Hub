@@ -50,7 +50,7 @@ local Tab2 = Window:CreateTab("Others", 4483362458) -- Title, Image
 
 local Input = Tab2:CreateInput({
    Name = "WalkSpeed",
-   PlaceholderText = "Input a Number from 1-99999999",
+   PlaceholderText = "Input a Number from 1-999999999",
    RemoveTextAfterFocusLost = false,
    Callback = function(v)
    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
@@ -59,7 +59,7 @@ local Input = Tab2:CreateInput({
 
 local Input = Tab2:CreateInput({
    Name = "JumpPower",
-   PlaceholderText = "Input a Number from 1-9999999",
+   PlaceholderText = "Input a Number from 1-999999999",
    RemoveTextAfterFocusLost = false,
    Callback = function(v)
    game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
@@ -70,7 +70,7 @@ local Toggle = Tab2:CreateToggle({
    Name = "Infinite Jump",
    CurrentValue = false,
    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-   Callback = function(v)
+   Callback = function(Value)
    local InfiniteJumpEnabled = true
 game:GetService("UserInputService").JumpRequest:connect(function(v)
 	if InfiniteJumpEnabled then
@@ -551,9 +551,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 })
 
 local Button = Tab7:CreateButton({
-   Name = "Min Hub",
+   Name = "Min Hub v2",
    Callback = function()
-   loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")() 
+   loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")() 
    end,
 })
 
