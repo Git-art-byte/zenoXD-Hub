@@ -50,7 +50,7 @@ local Tab2 = Window:CreateTab("Others", 4483362458) -- Title, Image
 
 local Input = Tab2:CreateInput({
    Name = "WalkSpeed",
-   PlaceholderText = "Input a Number from 1-999999999",
+   PlaceholderText = "Input a Number from 1-99999999",
    RemoveTextAfterFocusLost = false,
    Callback = function(v)
    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
@@ -59,7 +59,7 @@ local Input = Tab2:CreateInput({
 
 local Input = Tab2:CreateInput({
    Name = "JumpPower",
-   PlaceholderText = "Input a Number from 1-999999999",
+   PlaceholderText = "Input a Number from 1-9999999",
    RemoveTextAfterFocusLost = false,
    Callback = function(v)
    game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
