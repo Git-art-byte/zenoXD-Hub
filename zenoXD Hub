@@ -551,9 +551,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 })
 
 local Button = Tab7:CreateButton({
-   Name = "Min Hub v2",
+   Name = "Min Hub v4",
    Callback = function()
-   loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")() 
+   _G.LoadUiFast = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CheemsNhuChiAl/MinGamingHub/main/mingamingupdatenew"))()
    end,
 })
 
