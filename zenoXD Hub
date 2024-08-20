@@ -66,15 +66,6 @@ local Input = Tab2:CreateInput({
    end,
 })
 
-local Input = Tab:CreateInput({
-   Name = "Gravity",
-   PlaceholderText = "Input a Number From 1-999999",
-   RemoveTextAfterFocusLost = false,
-   Callback = function(v)
-   game.workspace.gravity = v
-   end,
-})
-
 local Toggle = Tab2:CreateToggle({
    Name = "Infinite Jump",
    CurrentValue = false,
