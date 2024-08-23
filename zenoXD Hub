@@ -205,6 +205,13 @@ local Button = Tab3:CreateButton({
 })
 
 local Button = Tab3:CreateButton({
+   Name = "Unnamed Admin Commands",
+   Callback = function()
+   loadstring(game:HttpGet(('https://pastefy.app/eO9WWFOi/raw'),true))()
+   end,
+})
+
+local Button = Tab3:CreateButton({
    Name = "CMD-X Admin",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
